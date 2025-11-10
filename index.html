@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>DH5 Laaaaaaan!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DH5 Lan!</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">De börjar närma sig boys!</h1>
+  <main class="countdown">
+    <section class="countdown__content">
+      <h1 class="countdown__title">Countdown to Saturday, 15 November 2025</h1>
+      <p class="countdown__subtitle">10:00 a.m. Central European Time (CET)</p>
+
+      <div id="timer" class="timer">
+        <div class="timer__segment">
+          <span class="timer__value" id="days">00</span>
+          <span class="timer__label">Days</span>
+        </div>
+        <div class="timer__segment">
+          <span class="timer__value" id="hours">00</span>
+          <span class="timer__label">Hours</span>
+        </div>
+        <div class="timer__segment">
+          <span class="timer__value" id="minutes">00</span>
+          <span class="timer__label">Minutes</span>
+        </div>
+        <div class="timer__segment">
+          <span class="timer__value" id="seconds">00</span>
+          <span class="timer__label">Seconds</span>
+        </div>
+      </div>
+
+      <p class="countdown__note" id="note">
+        We’re counting down the moments. Stay tuned!
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
