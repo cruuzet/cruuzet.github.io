@@ -1,4 +1,4 @@
-const targetDate = new Date("2025-11-15T10:00:00+01:00");
+const targetDate = new Date("2026-05-01T12:00:00+01:00");
 
 const elements = {
   days: document.getElementById("days"),
